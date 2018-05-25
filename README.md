@@ -36,3 +36,7 @@ If using CloudShell, you should do the following:
     </button>
 </span>
 ```
+
+## Viewing 
+* Visit the webserver http://IP:port/Graph.html?RES=Foo 
+* Foo is included as dummy data
