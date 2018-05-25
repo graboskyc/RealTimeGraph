@@ -1,0 +1,7 @@
+System Time,HTTP Throughput (Kbps),RTP Throughput (Kbps),MOS Instant (Avg),RTP Throughput Inbound (Kbps)
+7:48:17,0,0,0,0
+7:48:23,1227,0,0,0
+7:48:29,1227,0,0,0
+8:30:00,1600,1600,1600,1600
+8:40:00,100,1000,500,2000
+8:50:00,100,1000,500,2000
