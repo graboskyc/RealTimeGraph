@@ -31,11 +31,18 @@ If using CloudShell, you should do the following:
 
 ```html
 <span class="action-btn">
-    <button class="btn-icon btn-toggle"  value="Open Window" onclick="window.open('http://63.97.44.20/Graph.html?RES=@res.Id')">
-        <img src="http://63.97.44.20/img/diagram_window_graph.PNG" alt="submit" />
+    <button class="btn-icon btn-toggle"  value="Open Window" onclick="window.open('http://63.97.44.20/Graph.html?RES=@Model.Id')">
+        <img src="http://63.97.44.20/img/diagram_window_graph.PNG" alt="submit" /> Graph
     </button>
 </span>
 ```
+
+Then we also support a simple script that will generate the graph:
+* Edit the `IxiToGraph\__main__.py` and change the IP to the web server above
+* Zip this directory and Add it to CloudShell a Resource Script (Manage (1) --> Scripts (2) --> Resource(3)) and upload it (4) then assign it to the ixLoad or ixNetwork Controller (5)
+* Then use your traffic generator shell to load config, start traffic, get a statistics, then run the new command
+![](SS/SS02.PNG)
+![](SS/SS03.PNG)
 
 ## Viewing 
 * Visit the webserver http://IP:port/Graph.html?RES=Foo 
